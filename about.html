@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>О Торфинне - Сага о Винланде</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="main-header">
+        <nav class="nav-container">
+            <div class="logo" id="logo-btn">
+                <span>ᛏᚺᛟᚱᚠᛁᚾᚾ</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="about.html" class="active">О Торфинне</a></li>
+                <li><a href="timeline.html">Хроника</a></li>
+                <li><a href="gallery.html">Галерея</a></li>
+                <li><a href="philosophy.html">Философия</a></li>
+                <li><a href="contact.html">Обратная связь</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <h1>О Торфинне Карлсефни</h1>
+                <p>Путь от воина мести к создателю нового мира</p>
+            </div>
+        </section>
+
+        <section class="about-content">
+            <div class="container">
+                <div class="about-grid">
+                    <div class="about-text">
+                        <h2>Биография</h2>
+                        <p>Торфинн Карлсефни — один из главных персонажей манги "Сага о Винланде". Сын знаменитого воина Торса и Хельги, он с детства был вовлечен в жестокий мир викингов.</p>
+                        <p>После гибели отца от руки Аскеладда, Торфинн поклялся отомстить и присоединился к отряду Аскеладда, чтобы однажды сразиться с ним в честном поединке.</p>
+                        <p>Со временем его путь претерпел значительные изменения — от слепой жажды мести к поиску истинного смысла жизни и созданию Винланда, земли без рабства и войны.</p>
+                        
+                        <h3>Характер и философия</h3>
+                        <p>Торфинн прошел сложный путь трансформации: от агрессивного юноши, стремящегося только к мести, до мудрого лидера, понимающего ценность человеческой жизни.</p>
+                        <p>Его философия основана на идеях его отца: "У настоящего воина нет врагов". Это мировоззрение стало основой для его стремления создать общество, свободное от насилия.</p>
+                    </div>
+                    <div class="about-image">
+                        <img src="img_2.png" alt="Торфинн в молодости">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="evolution-section">
+            <div class="container">
+                <h2 class="section-title">Эволюция Торфинна</h2>
+                <div class="evolution-container">
+                    <div class="evolution-track">
+                        <div class="evolution-stage active" data-stage="child">
+                            <div class="stage-marker"></div>
+                            <div class="stage-info">
+                                <h3>Детство в Исландии</h3>
+                                <p>Невинный ребенок, восхищающийся рассказами отца о Винланде</p>
+                            </div>
+                        </div>
+                        <div class="evolution-stage" data-stage="warrior">
+                            <div class="stage-marker"></div>
+                            <div class="stage-info">
+                                <h3>Воин мести</h3>
+                                <p>Одержимый жаждой мести за смерть отца, слепо следующий за Аскеладдом</p>
+                            </div>
+                        </div>
+                        <div class="evolution-stage" data-stage="slave">
+                            <div class="stage-marker"></div>
+                            <div class="stage-info">
+                                <h3>Раб</h3>
+                                <p>Потерявший всё, переосмысливающий свою жизнь и философию</p>
+                            </div>
+                        </div>
+                        <div class="evolution-stage" data-stage="pioneer">
+                            <div class="stage-marker"></div>
+                            <div class="stage-info">
+                                <h3>Пионер Винланда</h3>
+                                <p>Создатель новой жизни, следующий идеалам отца о мире без рабства</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="evolution-visual">
+                        <div class="character-image">
+                            <img src="img_evolution_1.png" alt="Торфинн в детстве" id="evolution-img">
+                        </div>
+                        <div class="evolution-controls">
+                            <button id="prev-stage" class="evolution-btn">← Назад</button>
+                            <button id="next-stage" class="evolution-btn">Вперед →</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="comparison-section">
+            <div class="container">
+                <h2 class="section-title">Торфинн: Вымысел vs Реальность</h2>
+                <div class="comparison-container">
+                    <div class="comparison-tabs">
+                        <button class="tab-btn active" data-tab="fictional">Вымышленный Торфинн</button>
+                        <button class="tab-btn" data-tab="historical">Исторический Торфинн</button>
+                    </div>
+                    <div class="comparison-content">
+                        <div class="tab-content active" id="fictional-content">
+                            <h3>Торфинн из манги</h3>
+                            <ul>
+                                <li>Сын Торса, погибшего от руки Аскеладда</li>
+                                <li>Прошел путь от воина мести до миротворца</li>
+                                <li>Основал Винланд как утопию без рабства и войны</li>
+                                <li>Имел глубокую философскую трансформацию</li>
+                                <li>Был рабом, что повлияло на его мировоззрение</li>
+                            </ul>
+                        </div>
+                        <div class="tab-content" id="historical-content">
+                            <h3>Исторический Торфинн Карлсефни</h3>
+                            <ul>
+                                <li>Исландский исследователь, живший в X-XI веках</li>
+                                <li>Предпринял одну из самых успешных попыток колонизации Винланда</li>
+                                <li>Был женат на Гудрид, вдове Торфинна Тордарсона</li>
+                                <li>Его экспедиция описана в "Саге о гренландцах" и "Саге об Эрике Рыжем"</li>
+                                <li>Вернулся в Исландию после нескольких лет в Винланде</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills-section">
+            <div class="container">
+                <h2 class="section-title">Развитие навыков</h2>
+                <div class="skills-container">
+                    <div class="skill-category">
+                        <h3>Детство</h3>
+                        <div class="skill-chart">
+                            <div class="skill" data-skill="strength" data-value="30">
+                                <span>Сила</span>
+                                <div class="skill-bar"><div class="skill-fill"></div></div>
+                            </div>
+                            <div class="skill" data-skill="speed" data-value="60">
+                                <span>Скорость</span>
+                                <div class="skill-bar"><div class="skill-fill"></div></div>
+                            </div>
+                            <div class="skill" data-skill="wisdom" data-value="40">
+                                <span>Мудрость</span>
+                                <div class="skill-bar"><div class="skill-fill"></div></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Воин мести</h3>
+                        <div class="skill-chart">
+                            <div class="skill" data-skill="strength" data-value="70">
+                                <span>Сила</span>
+                                <div class="skill-bar"><div class="skill-fill"></div></div>
+                            </div>
+                            <div class="skill" data-skill="speed" data-value="90">
+                                <span>Скорость</span>
+                                <div class="skill-bar"><div class="skill-fill"></div></div>
+                            </div>
+                            <div class="skill" data-skill="wisdom" data-value="30">
+                                <span>Мудрость</span>
+                                <div class="skill-bar"><div class="skill-fill"></div></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Создатель Винланда</h3>
+                        <div class="skill-chart">
+                            <div class="skill" data-skill="strength" data-value="60">
+                                <span>Сила</span>
+                                <div class="skill-bar"><div class="skill-fill"></div></div>
+                            </div>
+                            <div class="skill" data-skill="speed" data-value="70">
+                                <span>Скорость</span>
+                                <div class="skill-bar"><div class="skill-fill"></div></div>
+                            </div>
+                            <div class="skill" data-skill="wisdom" data-value="95">
+                                <span>Мудрость</span>
+                                <div class="skill-bar"><div class="skill-fill"></div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>Сайт-визитка персонажа Торфинна Карлсефни. Атмосфера мира «Саги о Винланде»</p>
+        </div>
+    </footer>
+
+    <!-- Модальное окно для логотипа -->
+    <div id="logo-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-image">
+                <img src="logo_popup.png" alt="Торфинн Карлсефни">
+            </div>
+            <h3>Торфинн Карлсефни</h3>
+            <p>Воин, ставший создателем мира</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

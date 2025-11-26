@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Торфинн Карлсефни - Сага о Винланде</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="main-header">
+        <nav class="nav-container">
+            <div class="logo" id="logo-btn">
+                <span>ᛏᚺᛟᚱᚠᛁᚾᚾ</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="active">Главная</a></li>
+                <li><a href="about.html">О Торфинне</a></li>
+                <li><a href="timeline.html">Хроника</a></li>
+                <li><a href="gallery.html">Галерея</a></li>
+                <li><a href="philosophy.html">Философия</a></li>
+                <li><a href="contact.html">Обратная связь</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <div class="hero-slideshow">
+                <div class="slide active"></div>
+                <div class="slide"></div>
+                <div class="slide"></div>
+                <div class="slide"></div>
+                <div class="slide"></div>
+            </div>
+            <div class="hero-content">
+                <div class="hero-image">
+                    <img src="Img_1.png" alt="Торфинн Карлсефни" id="hero-img">
+                </div>
+                <div class="hero-text">
+                    <h1 class="hero-title">Торфинн Карлсефни</h1>
+                    <p class="hero-quote">"Настоящий воин не нуждается в мече."</p>
+                    <button class="cta-button" id="explore-btn">Исследовать сагу</button>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <span></span>
+            </div>
+        </section>
+
+        <section class="features-section">
+            <div class="container">
+                <h2 class="section-title">Путь воина</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">ᛏ</div>
+                        <h3>Происхождение</h3>
+                        <p>Сын Торса и Хельги, внук знаменитого Торса Старшего.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">ᚹ</div>
+                        <h3>Приключения</h3>
+                        <p>Путешествие в Винланд в поисках земли, свободной от рабства и войны.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">ᚦ</div>
+                        <h3>Философия</h3>
+                        <p>От мести к миру - эволюция взглядов истинного воина.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="quotes-section">
+            <div class="container">
+                <h2 class="section-title">Мудрость Торфинна</h2>
+                <div class="quote-generator">
+                    <div class="quote-display">
+                        <p id="random-quote">"Настоящий воин не нуждается в мече."</p>
+                        <span id="quote-context">— Торфинн Карлсефни</span>
+                    </div>
+                    <button id="generate-quote" class="cta-button">Новая цитата</button>
+                    <div class="quote-actions">
+                        <button id="copy-quote" class="action-btn">Копировать</button>
+                        <button id="share-quote" class="action-btn">Поделиться</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="interactive-section">
+            <div class="container">
+                <h2 class="section-title">Интерактивные возможности</h2>
+                <div class="interactive-grid">
+                    <div class="interactive-card">
+                        <div class="interactive-icon">📜</div>
+                        <h3>Эволюция персонажа</h3>
+                        <p>Проследите трансформацию Торфинна от воина к миротворцу</p>
+                        <a href="about.html" class="interactive-link">Исследовать</a>
+                    </div>
+                    <div class="interactive-card">
+                        <div class="interactive-icon">🧠</div>
+                        <h3>Философия</h3>
+                        <p>Изучите эволюцию взглядов и мировоззрения</p>
+                        <a href="philosophy.html" class="interactive-link">Изучить</a>
+                    </div>
+                    <div class="interactive-card">
+                        <div class="interactive-icon">🖼️</div>
+                        <h3>Галерея</h3>
+                        <p>Визуальная хроника пути воина</p>
+                        <a href="gallery.html" class="interactive-link">Смотреть</a>
+                    </div>
+                    <div class="interactive-card">
+                        <div class="interactive-icon">💬</div>
+                        <h3>Обратная связь</h3>
+                        <p>Поделитесь своими мыслями о саге</p>
+                        <a href="contact.html" class="interactive-link">Написать</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>Сайт-визитка персонажа Торфинна Карлсефни. Атмосфера мира «Саги о Винланде»</p>
+        </div>
+    </footer>
+
+    <!-- Модальное окно для логотипа -->
+    <div id="logo-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-image">
+                <img src="logo_popup.png" alt="Торфинн Карлсефni">
+            </div>
+            <h3>Торфинн Карлсефни</h3>
+            <p>Воин, ставший создателем мира</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

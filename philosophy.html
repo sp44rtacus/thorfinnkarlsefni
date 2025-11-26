@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Философия - Сага о Винланде</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="main-header">
+        <nav class="nav-container">
+            <div class="logo" id="logo-btn">
+                <span>ᛏᚺᛟᚱᚠᛁᚾᚾ</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="about.html">О Торфинне</a></li>
+                <li><a href="timeline.html">Хроника</a></li>
+                <li><a href="gallery.html">Галерея</a></li>
+                <li><a href="philosophy.html" class="active">Философия</a></li>
+                <li><a href="contact.html">Обратная связь</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <h1>Философия Торфинна</h1>
+                <p>Эволюция взглядов от мести к миру</p>
+            </div>
+        </section>
+
+        <section class="philosophy-section">
+            <div class="container">
+                <div class="philosophy-container">
+                    <div class="philosophy-timeline">
+                        <div class="philosophy-point active" data-stage="revenge">
+                            <div class="point-marker"></div>
+                            <div class="point-info">
+                                <h3>Месть</h3>
+                                <p>"Я убью тебя, Аскеладд!"</p>
+                            </div>
+                        </div>
+                        <div class="philosophy-point" data-stage="doubt">
+                            <div class="point-marker"></div>
+                            <div class="point-info">
+                                <h3>Сомнение</h3>
+                                <p>"Зачем я продолжаю сражаться?"</p>
+                            </div>
+                        </div>
+                        <div class="philosophy-point" data-stage="awakening">
+                            <div class="point-marker"></div>
+                            <div class="point-info">
+                                <h3>Пробуждение</h3>
+                                <p>"У настоящего воина нет врагов"</p>
+                            </div>
+                        </div>
+                        <div class="philosophy-point" data-stage="peace">
+                            <div class="point-marker"></div>
+                            <div class="point-info">
+                                <h3>Мир</h3>
+                                <p>"Мы создадим страну без рабства"</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="philosophy-visual">
+                        <div class="philosophy-image">
+                            <img src="img_philosophy_1.png" alt="Эволюция философии" id="philosophy-img">
+                        </div>
+                        <div class="philosophy-quote">
+                            <p id="philosophy-quote-text">"Я убью тебя, Аскеладд!"</p>
+                            <span id="philosophy-context">— Торфинн в юности</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="philosophy-explanation">
+                    <h2>Путь трансформации</h2>
+                    <div class="explanation-content">
+                        <div class="explanation-text">
+                            <p>Философский путь Торфинна — это история трансформации от слепой жажды мести к глубокому пониманию ценности человеческой жизни.</p>
+                            <p>Его эволюция отражает основные темы манги: поиск истинного смысла жизни, отказ от насилия как решения проблем и стремление создать лучшее общество.</p>
+                            <div class="key-principles">
+                                <h3>Ключевые принципы философии Торфинна:</h3>
+                                <ul>
+                                    <li>Настоящая сила — в умении защищать, а не нападать</li>
+                                    <li>У настоящего воина нет врагов</li>
+                                    <li>Месть порождает только новое насилие</li>
+                                    <li>Истинная храбрость — в умении прощать</li>
+                                    <li>Будущее строится на взаимопонимании, а не на завоевании</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="influence-chart">
+                            <h3>Влияние на мировоззрение</h3>
+                            <div class="chart-container">
+                                <div class="chart-item">
+                                    <span class="chart-label">Отец Торс</span>
+                                    <div class="chart-bar">
+                                        <div class="chart-fill" style="width: 90%"></div>
+                                    </div>
+                                </div>
+                                <div class="chart-item">
+                                    <span class="chart-label">Аскеладд</span>
+                                    <div class="chart-bar">
+                                        <div class="chart-fill" style="width: 60%"></div>
+                                    </div>
+                                </div>
+                                <div class="chart-item">
+                                    <span class="chart-label">Эйнар</span>
+                                    <div class="chart-bar">
+                                        <div class="chart-fill" style="width: 70%"></div>
+                                    </div>
+                                </div>
+                                <div class="chart-item">
+                                    <span class="chart-label">Собственный опыт</span>
+                                    <div class="chart-bar">
+                                        <div class="chart-fill" style="width: 95%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>Сайт-визитка персонажа Торфинна Карлсефни. Атмосфера мира «Саги о Винланде»</p>
+        </div>
+    </footer>
+
+    <!-- Модальное окно для логотипа -->
+    <div id="logo-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-image">
+                <img src="logo_popup.png" alt="Торфинн Карлсефни">
+            </div>
+            <h3>Торфинн Карлсефни</h3>
+            <p>Воин, ставший создателем мира</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

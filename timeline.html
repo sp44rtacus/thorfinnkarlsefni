@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Хроника - Сага о Винланде</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="main-header">
+        <nav class="nav-container">
+            <div class="logo" id="logo-btn">
+                <span>ᛏᚺᛟᚱᚠᛁᚾᚾ</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="about.html">О Торфинне</a></li>
+                <li><a href="timeline.html" class="active">Хроника</a></li>
+                <li><a href="gallery.html">Галерея</a></li>
+                <li><a href="philosophy.html">Философия</a></li>
+                <li><a href="contact.html">Обратная связь</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <h1>Хроника жизни Торфинна</h1>
+                <p>Путь от мести к искуплению и миру</p>
+            </div>
+        </section>
+
+        <section class="timeline-section">
+            <div class="container">
+                <div class="timeline-container">
+                    <!-- Вертикальная линия -->
+                    <div class="timeline-line"></div>
+
+                    <!-- Карточки временной шкалы -->
+                    <div class="timeline-cards">
+                        <!-- Карточка 1 -->
+                        <div class="timeline-card active" data-step="0">
+                            <div class="card-inner">
+                                <div class="card-front">
+                                    <div class="card-image">
+                                        <img src="img_timeline_1.png" alt="Детство Торфинна">
+                                    </div>
+                                    <div class="card-title">
+                                        <h3>Детство в Исландии</h3>
+                                        <p>Начало пути</p>
+                                    </div>
+                                </div>
+                                <div class="card-back">
+                                    <h3>Детство в Исландии</h3>
+                                    <p>Торфинн родился и вырос в Исландии, в семье Торса и Хельги. С детства он слушал рассказы отца о Винланде - мифической земле, свободной от войн и рабства. Эти истории сформировали его мечты о лучшем мире.</p>
+                                    <p>Он обучался боевым искусствам у отца, но Торс всегда учил его, что настоящий воин не нуждается в мече и не имеет врагов.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Карточка 2 -->
+                        <div class="timeline-card" data-step="1">
+                            <div class="card-inner">
+                                <div class="card-front">
+                                    <div class="card-image">
+                                        <img src="img_timeline_2.png" alt="Смерть Торса">
+                                    </div>
+                                    <div class="card-title">
+                                        <h3>Смерть Торса</h3>
+                                        <p>Рождение ненависти</p>
+                                    </div>
+                                </div>
+                                <div class="card-back">
+                                    <h3>Смерть Торса и рождение ненависти</h3>
+                                    <p>Трагическая гибель Торса от руки Аскеладда стала поворотным моментом в жизни Торфинна. На его глазах был убит человек, который олицетворял для него идеал воина и отца.</p>
+                                    <p>В этот момент в сердце юного Торфинна поселилась жажда мести, которая будет определять его жизнь на протяжении многих лет.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Карточка 3 -->
+                        <div class="timeline-card" data-step="2">
+                            <div class="card-inner">
+                                <div class="card-front">
+                                    <div class="card-image">
+                                        <img src="img_timeline_3.png" alt="Годы войны">
+                                    </div>
+                                    <div class="card-title">
+                                        <h3>Годы войны</h3>
+                                        <p>Пустота в сердце</p>
+                                    </div>
+                                </div>
+                                <div class="card-back">
+                                    <h3>Годы войны — пустота в сердце</h3>
+                                    <p>Присоединившись к отряду Аскеладда, Торфинн провел годы в бесконечных битвах и набегах. Каждое сражение приближало его к заветному поединку с убийцей отца, но одновременно отдаляло от человека, которым он когда-то был.</p>
+                                    <p>Война стала его единственной реальностью, заполнив пустоту, оставленную смертью отца, но не принеся утешения.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Карточка 4 -->
+                        <div class="timeline-card" data-step="3">
+                            <div class="card-inner">
+                                <div class="card-front">
+                                    <div class="card-image">
+                                        <img src="img_timeline_4.png" alt="Смерть Аскеладда">
+                                    </div>
+                                    <div class="card-title">
+                                        <h3>Смерть Аскеладда</h3>
+                                        <p>Переломный момент</p>
+                                    </div>
+                                </div>
+                                <div class="card-back">
+                                    <h3>Переломный момент: смерть Аскеладда</h3>
+                                    <p>Когда Торфинн наконец получил возможность сразиться с Аскеладдом, он обнаружил, что его заклятый враг умирает от ран, полученных в предыдущей битве. Аскеладд умер, не дав Торфинну satisfaction мести.</p>
+                                    <p>Этот момент стал катализатором глубокого экзистенциального кризиса - вся его жизнь, все его стремления оказались бессмысленными.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Карточка 5 -->
+                        <div class="timeline-card" data-step="4">
+                            <div class="card-inner">
+                                <div class="card-front">
+                                    <div class="card-image">
+                                        <img src="img_timeline_5.png" alt="Рабство">
+                                    </div>
+                                    <div class="card-title">
+                                        <h3>Рабство</h3>
+                                        <p>Начало перерождения</p>
+                                    </div>
+                                </div>
+                                <div class="card-back">
+                                    <h3>Рабство — начало внутреннего перерождения</h3>
+                                    <p>Попав в рабство, Торфинн оказался на дне социальной лестницы. Лишенный свободы, статуса и цели, он был вынужден столкнуться с самим собой.</p>
+                                    <p>Именно в рабстве началось его духовное перерождение. Встреча с Эйнаром и тяжелый труд на ферме заставили его задуматься о ценности человеческой жизни и труда.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Карточка 6 -->
+                        <div class="timeline-card" data-step="5">
+                            <div class="card-inner">
+                                <div class="card-front">
+                                    <div class="card-image">
+                                        <img src="img_timeline_6.png" alt="Осознание">
+                                    </div>
+                                    <div class="card-title">
+                                        <h3>Осознание</h3>
+                                        <p>«Я больше не хочу убивать»</p>
+                                    </div>
+                                </div>
+                                <div class="card-back">
+                                    <h3>Осознание: «Я больше не хочу убивать»</h3>
+                                    <p>Ключевой момент прозрения наступил, когда Торфинн понял, что больше не хочет быть орудием смерти. Вспомнив слова отца "у настоящего воина нет врагов", он осознал тщетность пути мести.</p>
+                                    <p>Это было болезненное, но необходимое осознание, которое освободило его от оков прошлого и открыло путь к новой жизни.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Карточка 7 -->
+                        <div class="timeline-card" data-step="6">
+                            <div class="card-inner">
+                                <div class="card-front">
+                                    <div class="card-image">
+                                        <img src="img_timeline_7.png" alt="Освобождение">
+                                    </div>
+                                    <div class="card-title">
+                                        <h3>Освобождение</h3>
+                                        <p>Новое направление</p>
+                                    </div>
+                                </div>
+                                <div class="card-back">
+                                    <h3>Освобождение и новое направление</h3>
+                                    <p>Получив свободу, Торфинн стоял на пороге новой жизни. Но в отличие от прошлого, теперь у него была цель - не разрушение, а созидание.</p>
+                                    <p>Он решил продолжить дело отца и найти Винланд - землю, о которой мечтал его отец.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Карточка 8 -->
+                        <div class="timeline-card" data-step="7">
+                            <div class="card-inner">
+                                <div class="card-front">
+                                    <div class="card-image">
+                                        <img src="img_timeline_8.png" alt="Миссия">
+                                    </div>
+                                    <div class="card-title">
+                                        <h3>Миссия</h3>
+                                        <p>Создание Винланда</p>
+                                    </div>
+                                </div>
+                                <div class="card-back">
+                                    <h3>Миссия: создание Винланда</h3>
+                                    <p>Торфинн посвятил себя подготовке экспедиции в Винланд. Он понимал, что это не просто географическое открытие, а возможность создать новое общество, основанное на принципах мира и равенства.</p>
+                                    <p>Его мечта о Винланде стала не бегством от reality, а сознательным выбором в пользу созидания вместо разрушения.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Карточка 9 -->
+                        <div class="timeline-card" data-step="8">
+                            <div class="card-inner">
+                                <div class="card-front">
+                                    <div class="card-image">
+                                        <img src="img_timeline_9.png" alt="Экспедиция">
+                                    </div>
+                                    <div class="card-title">
+                                        <h3>Экспедиция</h3>
+                                        <p>Кульминация пути</p>
+                                    </div>
+                                </div>
+                                <div class="card-back">
+                                    <h3>Экспедиция в Винланд — кульминация пути</h3>
+                                    <p>Путешествие в Винланд стало физическим воплощением духовного пути Торфинна. Преодолевая океанские просторы, он одновременно преодолевал границы собственного восприятия.</p>
+                                    <p>Каждая миля, отделявшая его от Европы, символически отдаляла его от прошлого, полного насилия и hatred.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Карточка 10 -->
+                        <div class="timeline-card" data-step="9">
+                            <div class="card-inner">
+                                <div class="card-front">
+                                    <div class="card-image">
+                                        <img src="img_timeline_10.png" alt="Прибытие">
+                                    </div>
+                                    <div class="card-title">
+                                        <h3>Прибытие</h3>
+                                        <p>Надежда на новую жизнь</p>
+                                    </div>
+                                </div>
+                                <div class="card-back">
+                                    <h3>Прибытие в Винланд — надежда на новую жизнь</h3>
+                                    <p>Когда корабли достигли берегов Винланда, Торфинн увидел землю, соответствующую его мечтам. Плодородные почвы, богатые леса и отсутствие следов цивилизации обещали возможность начать все заново.</p>
+                                    <p>Это был момент, когда мечта отца стала его собственной реальностью.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Карточка 11 -->
+                        <div class="timeline-card" data-step="10">
+                            <div class="card-inner">
+                                <div class="card-front">
+                                    <div class="card-image">
+                                        <img src="img_timeline_11.png" alt="Конфликт">
+                                    </div>
+                                    <div class="card-title">
+                                        <h3>Конфликт</h3>
+                                        <p>Испытание идеалов</p>
+                                    </div>
+                                </div>
+                                <div class="card-back">
+                                    <h3>Конфликт с племенами — испытание идеалов Торфинна</h3>
+                                    <p>Встреча с коренными жителями стала серьезным испытанием для философии Торфинна. Культурные различия и недопонимание привели к конфликту, который угрожал разрушить его мечту о мирном сосуществовании.</p>
+                                    <p>Торфинн столкнулся с дилеммой: защищать свою колонию силой или оставаться верным своим принципам ненасилия.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Карточка 12 -->
+                        <div class="timeline-card" data-step="11">
+                            <div class="card-inner">
+                                <div class="card-front">
+                                    <div class="card-image">
+                                        <img src="img_timeline_12.png" alt="Завершение">
+                                    </div>
+                                    <div class="card-title">
+                                        <h3>Завершение пути</h3>
+                                        <p>Наследие мира</p>
+                                    </div>
+                                </div>
+                                <div class="card-back">
+                                    <h3>Завершение пути — прощание с Винландом и наследие мира</h3>
+                                    <p>Понимая, что постоянные конфликты делают невозможным существование колонии, Торфинн принял тяжелое решение покинуть Винланд. Но его наследие не было утрачено.</p>
+                                    <p>Идея Винланда - места, где люди могут жить в мире, свободные от рабства и насилия - продолжала жить в сердцах тех, кто следовал за ним, и в истории, которую он оставил потомкам.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>Сайт-визитка персонажа Торфинна Карлсефни. Атмосфера мира «Саги о Винланде»</p>
+        </div>
+    </footer>
+
+    <!-- Модальное окно для логотипа -->
+    <div id="logo-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-image">
+                <img src="logo_popup.png" alt="Торфинн Карлсефни">
+            </div>
+            <h3>Торфинн Карлсефни</h3>
+            <p>Воин, ставший создателем мира</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

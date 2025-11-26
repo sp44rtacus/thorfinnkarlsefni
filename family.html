@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Семейное древо - Сага о Винланде</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="main-header">
+        <nav class="nav-container">
+            <div class="logo" id="logo-btn">
+                <span>ᛏᚺᛟᚱᚠᛁᚾᚾ</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="about.html">О Торфинне</a></li>
+                <li><a href="timeline.html">Хроника</a></li>
+                <li><a href="gallery.html">Галерея</a></li>
+                <li><a href="philosophy.html">Философия</a></li>
+                <li><a href="family.html" class="active">Семья</a></li>
+                <li><a href="contact.html">Обратная связь</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <h1>Семейное древо Торфинна</h1>
+                <p>Изучите родственные связи и наследие</p>
+            </div>
+        </section>
+
+        <section class="family-section">
+            <div class="container">
+                <div class="family-tree" id="family-tree">
+                    <div class="tree-level" data-level="1">
+                        <div class="tree-person" data-person="thors-grandfather">
+                            <div class="person-card">
+                                <h3>Торс Старший</h3>
+                                <p>Дед Торфинна, легендарный воин</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tree-level" data-level="2">
+                        <div class="tree-person" data-person="thors">
+                            <div class="person-card">
+                                <h3>Торс</h3>
+                                <p>Отец Торфинна, "Тролль из Йомсборга"</p>
+                            </div>
+                        </div>
+                        <div class="tree-person" data-person="helga">
+                            <div class="person-card">
+                                <h3>Хельга</h3>
+                                <p>Мать Торфинна</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tree-level" data-level="3">
+                        <div class="tree-person main-person" data-person="thorfinn">
+                            <div class="person-card">
+                                <h3>Торфинн Карлсефни</h3>
+                                <p>Главный герой саги</p>
+                            </div>
+                        </div>
+                        <div class="tree-person" data-person="yiva">
+                            <div class="person-card">
+                                <h3>Иллуга</h3>
+                                <p>Брат Торфинна</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tree-level" data-level="4">
+                        <div class="tree-person" data-person="gudrid">
+                            <div class="person-card">
+                                <h3>Гудрид</h3>
+                                <p>Жена Торфинна</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tree-level" data-level="5">
+                        <div class="tree-person" data-person="snorri">
+                            <div class="person-card">
+                                <h3>Снорри Торфиннсон</h3>
+                                <p>Сын Торфинна, родившийся в Винланде</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="family-details">
+                    <h2>Подробности о семье</h2>
+                    <div class="details-container">
+                        <div class="person-detail active" data-person="thorfinn">
+                            <h3>Торфинн Карлсефни</h3>
+                            <p>Главный герой манги "Сага о Винланде". Прошел путь от воина мести до создателя мирного поселения в Винланде.</p>
+                            <ul>
+                                <li>Сын Торса и Хельги</li>
+                                <li>Муж Гудрид</li>
+                                <li>Отец Снорри</li>
+                                <li>Основатель поселения в Винланде</li>
+                            </ul>
+                        </div>
+                        <div class="person-detail" data-person="thors">
+                            <h3>Торс</h3>
+                            <p>Отец Торфинна, известный как "Тролль из Йомсборга". Оставил жизнь воина после рождения сына.</p>
+                            <ul>
+                                <li>Сын Торса Старшего</li>
+                                <li>Муж Хельги</li>
+                                <li>Отец Торфинна и Иллуги</li>
+                                <li>Погиб от руки Аскеладда</li>
+                            </ul>
+                        </div>
+                        <div class="person-detail" data-person="helga">
+                            <h3>Хельга</h3>
+                            <p>Мать Торфинна, пережившая мужа и воспитавшая сыновей в Исландии.</p>
+                        </div>
+                        <div class="person-detail" data-person="gudrid">
+                            <h3>Гудрид</h3>
+                            <p>Жена Торфинна, сопровождавшая его в путешествии в Винланд.</p>
+                        </div>
+                        <div class="person-detail" data-person="snorri">
+                            <h3>Снорри Торфиннсон</h3>
+                            <p>Сын Торфинна и Гудрид, первый европеец, родившийся в Северной Америке.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>Сайт-визитка персонажа Торфинна Карлсефни. Атмосфера мира «Саги о Винланде»</p>
+        </div>
+    </footer>
+
+    <!-- Модальное окно для логотипа -->
+    <div id="logo-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-image">
+                <img src="logo_popup.png" alt="Торфинн Карлсефни">
+            </div>
+            <h3>Торфинн Карлсефни</h3>
+            <p>Воин, ставший создателем мира</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Обратная связь - Сага о Винланде</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="main-header">
+        <nav class="nav-container">
+            <div class="logo" id="logo-btn">
+                <span>ᛏᚺᛟᚱᚠᛁᚾᚾ</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="about.html">О Торфинне</a></li>
+                <li><a href="timeline.html">Хроника</a></li>
+                <li><a href="gallery.html">Галерея</a></li>
+                <li><a href="philosophy.html">Философия</a></li>
+                <li><a href="contact.html" class="active">Обратная связь</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <h1>Обратная связь</h1>
+                <p>Поделитесь своими мыслями о саге</p>
+            </div>
+        </section>
+
+        <section class="contact-section">
+            <div class="container">
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h2>Свяжитесь с нами</h2>
+                        <p>Если у вас есть вопросы или предложения по сайту, заполните форму обратной связи.</p>
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <div class="contact-icon">ᛗ</div>
+                                <div class="contact-text">
+                                    <h3>Электронная почта</h3>
+                                    <p>vinlandsagatk@gmail.com</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-icon">ᚺ</div>
+                                <div class="contact-text">
+                                    <h3>Социальные сети</h3>
+                                    <p>Следите за обновлениями</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form">
+                        <form id="feedback-form" method="POST">
+                            <input type="hidden" name="access_key" value="0711b64c-694d-421a-ab41-222c43253fba">
+                            <input type="hidden" name="subject" value="Новое сообщение с сайта о Торфинне">
+                            <input type="hidden" name="from_name" value="Сайт Сага о Винланде">
+                            
+                            <div class="form-group">
+                                <label for="name">Ваше имя *</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Электронная почта *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message_type">Тип сообщения *</label>
+                                <select id="message_type" name="message_type" required>
+                                    <option value="">Выберите тип</option>
+                                    <option value="question">Вопрос о саге</option>
+                                    <option value="suggestion">Предложение по сайту</option>
+                                    <option value="feedback">Отзыв о сайте</option>
+                                    <option value="other">Другое</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Сообщение *</label>
+                                <textarea id="message" name="message" rows="5" required placeholder="Расскажите ваши мысли о саге или сайте..."></textarea>
+                            </div>
+                            
+                            <button type="submit" class="submit-btn">
+                                <span class="submit-text">Отправить сообщение</span>
+                                <div class="loading-spinner" style="display: none;"></div>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>Сайт-визитка персонажа Торфинна Карлсефни. Атмосфера мира «Саги о Винланде»</p>
+        </div>
+    </footer>
+
+    <!-- Модальное окно для логотипа -->
+    <div id="logo-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-image">
+                <img src="logo_popup.png" alt="Торфинн Карлсефни">
+            </div>
+            <h3>Торфинн Карлсефни</h3>
+            <p>Воин, ставший создателем мира</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

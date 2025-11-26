@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Галерея - Сага о Винланде</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="main-header">
+        <nav class="nav-container">
+            <div class="logo" id="logo-btn">
+                <span>ᛏᚺᛟᚱᚠᛁᚾᚾ</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="about.html">О Торфинне</a></li>
+                <li><a href="timeline.html">Хроника</a></li>
+                <li><a href="gallery.html" class="active">Галерея</a></li>
+                <li><a href="philosophy.html">Философия</a></li>
+                <li><a href="contact.html">Обратная связь</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <h1>Галерея Торфинна</h1>
+                <p>Визуальная хроника пути воина и творчество поклонников</p>
+            </div>
+        </section>
+
+        <section class="gallery-section">
+            <div class="container">
+                <h2 class="section-title">Официальная галерея</h2>
+                <div class="gallery-filter">
+                    <button class="filter-btn active" data-filter="all">Все</button>
+                    <button class="filter-btn" data-filter="childhood">Детство</button>
+                    <button class="filter-btn" data-filter="warrior">Воин</button>
+                    <button class="filter-btn" data-filter="vinland">Винланд</button>
+                    <button class="filter-btn" data-filter="philosophy">Философия</button>
+                </div>
+                
+                <div class="gallery-grid">
+                    <!-- Детство -->
+                    <div class="gallery-item" data-category="childhood">
+                        <img src="img_gallery_1.png" alt="Торфинн в детстве с отцом">
+                        <div class="gallery-overlay">
+                            <h3>Уроки отца</h3>
+                            <p>Торфинн обучается у Торса в Исландии</p>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item" data-category="childhood">
+                        <img src="img_gallery_2.png" alt="Торфинн в родной деревне">
+                        <div class="gallery-overlay">
+                            <h3>Детство в Исландии</h3>
+                            <p>Мирная жизнь до трагедии</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Воин -->
+                    <div class="gallery-item" data-category="warrior">
+                        <img src="img_gallery_3.png" alt="Торфинн в отряде Аскеладда">
+                        <div class="gallery-overlay">
+                            <h3>В отряде Аскеладда</h3>
+                            <p>Годы службы и ожидания мести</p>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item" data-category="warrior">
+                        <img src="img_gallery_4.png" alt="Торфинн в битве">
+                        <div class="gallery-overlay">
+                            <h3>Молодой воин</h3>
+                            <p>Навыки, отточенные в сражениях</p>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item" data-category="warrior">
+                        <img src="img_gallery_5.png" alt="Торфинн против Торкелла">
+                        <div class="gallery-overlay">
+                            <h3>Поединок с Торкеллом</h3>
+                            <p>Испытание силы и воли</p>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item" data-category="warrior">
+                        <img src="img_gallery_6.png" alt="Торфинн в раздумьях">
+                        <div class="gallery-overlay">
+                            <h3>Моменты сомнения</h3>
+                            <p>Размышления о пути воина</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Винланд -->
+                    <div class="gallery-item" data-category="vinland">
+                        <img src="img_gallery_7.png" alt="Путь в Винланд">
+                        <div class="gallery-overlay">
+                            <h3>Путь в Винланд</h3>
+                            <p>Начало великого путешествия</p>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item" data-category="vinland">
+                        <img src="img_gallery_8.png" alt="Прибытие в Винланд">
+                        <div class="gallery-overlay">
+                            <h3>Земля обетованная</h3>
+                            <p>Первые впечатления от Винланда</p>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item" data-category="vinland">
+                        <img src="img_gallery_9.png" alt="Торфинн и Гудрид в Винланде">
+                        <div class="gallery-overlay">
+                            <h3>Новая жизнь</h3>
+                            <p>Торфинн и Гудрид в Винланде</p>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item" data-category="vinland">
+                        <img src="img_gallery_10.png" alt="Строительство поселения">
+                        <div class="gallery-overlay">
+                            <h3>Создание поселения</h3>
+                            <p>Тяжелый труд и надежды</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Философия -->
+                    <div class="gallery-item" data-category="philosophy">
+                        <img src="img_gallery_11.png" alt="Торфинн размышляет">
+                        <div class="gallery-overlay">
+                            <h3>Путь к просветлению</h3>
+                            <p>Моменты глубоких размышлений</p>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item" data-category="philosophy">
+                        <img src="img_gallery_12.png" alt="Торфинн отвергает меч">
+                        <div class="gallery-overlay">
+                            <h3>Отказ от насилия</h3>
+                            <p>Ключевой момент трансформации</p>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item" data-category="philosophy">
+                        <img src="img_gallery_13.png" alt="Торфинн учит других">
+                        <div class="gallery-overlay">
+                            <h3>Учитель мира</h3>
+                            <p>Передача мудрости следующим поколениям</p>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item" data-category="philosophy">
+                        <img src="img_gallery_14.png" alt="Торфинн в медитации">
+                        <div class="gallery-overlay">
+                            <h3>Внутренний покой</h3>
+                            <p>Обретение гармонии с собой</p>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item" data-category="philosophy">
+                        <img src="img_gallery_15.png" alt="Наследие Торфинна">
+                        <div class="gallery-overlay">
+                            <h3>Наследие мира</h3>
+                            <p>Идеи, пережившие своего создателя</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="fanart-section">
+            <div class="container">
+                <h2 class="section-title">Фан-арты поклонников</h2>
+                <p class="section-subtitle">Творчество сообщества, вдохновленного историей Торфинна</p>
+                
+                <div class="fanart-grid" id="fanart-container">
+                    <!-- Фан-арты будут добавляться динамически и через модерацию -->
+                    <div class="fanart-item">
+                        <img src="img_fanart_1.png" alt="Фан-арт Торфинна от Yuki">
+                        <div class="fanart-info">
+                            <h3>Воин мира</h3>
+                            <p class="fanart-author">Автор: Yuki</p>
+                            <p class="fanart-date">Добавлено: 15.01.2023</p>
+                        </div>
+                    </div>
+                    
+                    <div class="fanart-item">
+                        <img src="img_fanart_2.png" alt="Фан-арт Торфинна от Alex">
+                        <div class="fanart-info">
+                            <h3>Путь к Винланду</h3>
+                            <p class="fanart-author">Автор: Alex</p>
+                            <p class="fanart-date">Добавлено: 22.02.2023</p>
+                        </div>
+                    </div>
+                    
+                    <div class="fanart-item">
+                        <img src="img_fanart_3.png" alt="Фан-арт Торфинна от Maria">
+                        <div class="fanart-info">
+                            <h3>Мечта об идеальном мире</h3>
+                            <p class="fanart-author">Автор: Maria</p>
+                            <p class="fanart-date">Добавлено: 05.03.2023</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="add-fanart-section">
+                    <h3>Добавьте свой фан-арт</h3>
+                    <p>Поделитесь своим творчеством, вдохновленным сагой о Торфинне. После проверки модератором ваша работа появится в галерее.</p>
+                    
+                    <form id="fanart-form" method="POST">
+                        <input type="hidden" name="access_key" value="0711b64c-694d-421a-ab41-222c43253fba">
+                        <input type="hidden" name="subject" value="Новый фан-арт для галереи Торфинна">
+                        <input type="hidden" name="from_name" value="Галерея Сага о Винланде">
+                        <input type="hidden" name="category" value="fanart_submission">
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="fanart-name">Ваше имя *</label>
+                                <input type="text" id="fanart-name" name="name" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="fanart-email">Ваш email *</label>
+                                <input type="email" id="fanart-email" name="email" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="fanart-title">Название работы *</label>
+                            <input type="text" id="fanart-title" name="work_title" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="fanart-url">Ссылка на изображение *</label>
+                            <input type="url" id="fanart-url" name="image_url" required placeholder="https://example.com/your-image.jpg">
+                            <p class="file-info">Укажите прямую ссылку на изображение (JPG, PNG, GIF)</p>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="fanart-description">Описание работы</label>
+                            <textarea id="fanart-description" name="description" rows="3" placeholder="Расскажите о своей работе, что вас вдохновило..." class="fixed-textarea"></textarea>
+                        </div>
+                        
+                        <div class="consent-group">
+                            <input type="checkbox" id="fanart-consent" name="consent" required>
+                            <label for="fanart-consent">Я согласен с правилами публикации и даю разрешение на размещение моей работы в галерее</label>
+                        </div>
+                        
+                        <button type="submit" class="submit-btn fanart-submit">
+                            <span class="submit-text">Отправить на модерацию</span>
+                            <div class="loading-spinner" style="display: none;"></div>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>Сайт-визитка персонажа Торфинна Карлсефни. Атмосфера мира «Саги о Винланде»</p>
+        </div>
+    </footer>
+
+    <!-- Модальное окно успешной отправки -->
+    <div id="success-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-icon">✓</div>
+            <h3>Спасибо за вашу работу!</h3>
+            <p>Ваш фан-арт успешно отправлен на модерацию. После проверки он появится в галерее.</p>
+            <button class="modal-btn" id="modal-ok">Ок</button>
+        </div>
+    </div>
+
+    <!-- Модальное окно для логотипа -->
+    <div id="logo-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-image">
+                <img src="logo_popup.png" alt="Торфинн Карлсефни">
+            </div>
+            <h3>Торфинн Карлсефни</h3>
+            <p>Воин, ставший создателем мира</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
